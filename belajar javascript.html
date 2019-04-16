@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JAVASCRIPT</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+    <style>
+        #satu{
+            background-color: black;
+            color: aliceblue;
+            font-size: 25px;
+        }
+        #dua{
+            background-color: black;
+            color: aliceblue;
+            font-size: 25px;
+        }
+        #tiga{
+            background-color: black;
+            color: aliceblue;
+            font-size: 25px;
+        }
+    </style>
+    <div id="satu"></div>
+    <div id="dua"></div>
+    <div id="tiga"></div>
+    <div id="empat"></div>
+    <div id="lima"></div>
+    <div id="enam"></div>
+    <div id="tujuh"></div>
+    <div id="delapan"></div>
+    <div id="sembilan"></div>
+    <div id="sepuluh"></div>
+    <div id="sebelas"></div>
+    <div id="duabelas"></div>
+    <div id="tigabelas"></div>
+    <div id="empatbelas"></div>
+    <div id="limabelas"></div>
+    <div id="enambelas"></div>
+    <div id="tujuhbelas"></div>
+    <div id="delapanbelas"></div>
+    <div id="sembilanbelas"></div>
+    <div id="duapuluh"></div>
+    <div id="duasatu"></div>
+    <div id="duadua"></div>
+    <div id="duatiga"></div>
+    <div id="duaempat"></div>
+    <div id="dualima"></div>
+    <div id="duaenam"></div>
+    <div id="duatujuh"></div>
+    <div id="duadelapan"></div>
+    <div id="duasembilan"></div>
+    <div id="tigapuluh"></div>
+    <div id="tigasatu"></div>
+    <div id="tigadua"></div>
+    <div id="tigatiga"></div>
+    <div id="tigaempat"></div>
+    <div id="tigalima"></div>
+    <div id="tigaenam"></div>
+    <div id="tigatujuh"></div>
+    <div id="tigadelapan"></div>
+    <div id="tigasembilan"></div>
+    <div id="empatpuluh"></div>
+    <div id="empatsatu"></div>
+    <div id="empatdua"></div>
+    <div id="empattiga"></div>
+    <div id="empatempat"></div>
+    <div id="empatlima"></div>
+    <div id="empatenam"></div>
+    <div id="empattujuh"></div>
+    <div id="empatdelapan"></div>
+    <div id="empatsembilan"></div>
+    <div id="limapuluh"></div>
+    <div id="limasatu"></div>
+    <div id="limasatuo"></div>
+    <div id="limasatuoi"></div>
+    <div id="limasatuu"></div>
+    <div id="limasatuuu"></div>
+    <div id="limasatuy"></div>
+    <div id="limadua"></div>
+    <div id="limatiga"></div>
+    <div id="limaempat"></div>
+    <div id="limalima"></div>
+    <div id="limaenam"></div>
+    <div id="limatujuh"></div>
+    <div id="limadelapan"></div>
+    <div id="limasembilan"></div>
+    <div id="enampuluh"></div>
+    <div id="enamsatu"></div>
+    <div id="enamdua"></div>
+    <div id="enamtiga"></div>
+    <div id="enamempat"></div>
+    <div id="enamlima"></div>
+    <div id="enamenam"></div>
+    <div id="enamtujuh"></div>
+    <div id="enamdelapan"></div>
+    <div id="enamsembilan"></div>
+    <div id="tujuhpuluh"></div>
+    <div id="tujuhpuluhh"></div>
+    <div id="tujuhsatu"></div>
+    <div id="tujuhdua"></div>
+    <div id="tujuhtiga"></div>
+    <div id="tujuhempat"></div>
+    <div id="tujuhlima"></div>
+    <div id="chek"></div>
+    <div id="tujuhenam"></div>
+    <div id="tujuhtujuh"></div>
+    <div id="tujuhdelapan"></div>
+    <div id="tujuhsembilan"></div>
+    <div id="delapanpuluh"></div>
+    <div id="delapansatu"></div>
+    <div id="delapandua"></div>
+    <div id="delapantiga"></div>
+    <div id="delapanempat"></div>
+    <div id="delapanlima"></div>
+    <div id="delapanenam"></div>
+    <div id="delapantujuh"></div>
+    <div id="delapandelapan"></div>
+    <div id="delapansembilan"></div>
+    <div id="sembilanpuluh"></div>
+    <div id="sembilansatu"></div>
+    <div id="sembilandua"></div>
+    <div id="sembilantiga"></div>
+    <div id="sembilanempat"></div>
+    <div id="sembilanlima"></div>
+    <div id="sembilanenam"></div>
+    <div id="sembilantujuh"></div>
+    <div id="sembilandelapan"></div>
+    <div id="sembilansembilan"></div>
+    <div id="seratus"></div>
+    <div id="seratussatu"></div>
+    <div id="seratusdua"></div>
+    <script>
+        //cara penggunaan javasrcript
+        document.getElementById ("satu").innerHTML = "ABC123DEF456";
+        
+        //deklarasi/declaration variable
+       
+        var $A = 5500000
+        document.getElementById ("dua").innerHTML = $A ;
+
+        //type/tipe data string
+        var _123B = "ini type data string 123";
+        document.getElementById ("tiga").innerHTML = _123B;
+
+        //type data number/integer
+        //BENAR :
+        var $B = 900 + 120;
+        document.getElementById("empat").innerHTML = $B;
+        //SALAH :
+        var $C = "900" + " 120";
+        document.getElementById("lima").innerHTML = $C;
+        
+        //mengenal lebih dalam tentang variabel
+        var _A = "Ibrahim";
+        var _B = " Gozi";
+         /*cara mengganti nilai variabel cukup dengan
+        deklarasikan nama saja tanpa simbol "var" */
+        _B = " 6021"
+        _A = "baim"
+
+        var _C = _A + _B;
+        document.getElementById("enam").innerHTML = _C ;
+
+        //operator matematika (+, -, /, *, %)
+        var $1 = 1000;
+        var $2 = 2000;
+        var $3 = 3000;
+        var _D = $3 / $1;
+        document.getElementById("tujuh").innerHTML = _D;
+
+        //metode increment dan decrement
+        //increment (++;) adalah penambahan 1 nilai pada sebuah data
+        //decrement (--;) adalah pengurangan 1 nilai pada sebuah data
+
+        //contoh metode increment:
+        var _1 = 10;
+        var _2 = 20;
+        var _3 = 30;
+        var _E = 40;
+        _E = _E + _3;
+        _E++;
+        document.getElementById("delapan").innerHTML = _E;
+        
+        //contoh metode decrement:
+        var _4 = 50;
+        var _5 = 60;
+        var _6 = 70;
+        _6--;
+        //cara penulisan singkat :
+        
+        //_6 = _6 + _5; menjadi seperti ini :
+        _6 += _5;
+        document.getElementById("sembilan").innerHTML = _6;
+
+        //metode-metode integer/number/angka :
+        // toFixed/to fixed, toString/to string , random , min , max
+
+        //toFixed/to fixed :
+        /*methode toFixed berguna untuk menentukan berapa angka
+        yang berada dibelakang koma*/
+        //contoh :
+        var $angka1 = 10.0000045;
+        var _angka2 = 6.0012;
+        var angka_baru = $angka1 + _angka2;
+        angka_baru = angka_baru.toFixed(4);
+        document.getElementById("sepuluh").innerHTML = angka_baru;
+
+        //metode toString/to string :
+        /*berguna untuk mengubah jenis data integer menjadi string*/
+        //contoh :
+        var anjing = 1000;
+        var kucing = 2000;
+        //var kancing = anjing + kucing;
+        var kancing = anjing.toString() + kucing;
+        document.getElementById("sebelas").innerHTML = kancing;
+        
+        //metode random
+        /*berguna untuk menampilan angka desimal secara acak (random)*/
+        //contoh :
+        var _A1 = Math.random();
+        document.getElementById("duabelas").innerHTML = _A1;
+
+        //metode min/minimalize (Math.min())
+        /*berguna untuk menentukan nilai terkecil diantara data integer yang ada*/
+        //contoh :
+        var _A35$ = 14.004;
+        var _$$ta = 0.3331;
+        var bca_2 = 0.004;
+        var tot = Math.min(_A35$ , _$$ta , bca_2);
+        document.getElementById("tigabelas").innerHTML = tot;
+
+        //metode max/maximize (Math.max())
+        /*berguna untuk menentukan nilai terbesar diantara data integer yg ada*/
+        //contoh :
+        var X = 197876;
+        var Y = 0.99911;
+        var Z = 5.009;
+        var AB = Math.max( X , Y , Z );
+        document.getElementById("empatbelas").innerHTML = AB ;
+
+        //metode round
+        /*berguna untuk membulatkan bilangan desimal ke angka setelah tanda koma*/
+        //contoh :
+        //var Index = 10.978342;
+        var Index = Math.round(10.978342);
+        document.getElementById("limabelas").innerHTML = Index;
+
+        //metode ceil
+        /*berguna untuk membulatkan bilangan desimal ke atas*/
+        //contoh :
+        var BARu = Math.ceil(2.00001);
+        document.getElementById("enambelas").innerHTML = BARu;
+        
+        //metode floor
+        /*berguna untuk membulatkan bilangan desimal ke bawah*/
+        //contoh :
+        var variabelbaru = Math.floor(0.99999);
+        document.getElementById("tujuhbelas").innerHTML = variabelbaru;
+
+        //metode random spesific formula
+        /*berguna untuk mengatur nilai acak yang kita inginkan*/
+        //contoh :
+        //batas maksimal = jarak + batas minimal
+        //range/jarak :
+        var jarak = 10;
+        //batas minimal :
+        var batasmin = 5;
+        var OZ = Math.floor(Math.random() * jarak) + batasmin;
+        document.getElementById("delapanbelas").innerHTML = OZ;
+
+        //METODE STRING 
+        //length , indexOf , lastindexOf , search , charAt
+
+        //length
+        //berguna untuk menghitung jumlah karakter
+        var $99 = "ayah sedang membaca buku";
+        $99 = $99.length;
+        document.getElementById("sembilanbelas").innerHTML = $99;
+        
+        //indexOf
+        //berguna untuk mencari suatu huruf melalui urutan paling awal
+        var _new = "kampretos"
+        _new = _new.indexOf("a");
+        document.getElementById("duapuluh").innerHTML = _new;
+        
+        //lastindexOf
+        //berguna untuk mencari suatu huruf melalui urutan paling akhir
+        var $BBC = "ducati panigale";
+        $BBC = $BBC.lastIndexOf("a");
+        document.getElementById("duasatu").innerHTML = $BBC;
+        
+        //search
+        /*berguna untuk mencari suatu huruf/kata, dengan cara mengetikan huruf/kata
+        yang akan dicari. maka yang akan muncul adalah posisinya (berupa angka)*/
+        var M1 = "DUCATI MONSTER";
+        M1 = M1.search("MONSTER");
+        document.getElementById("duadua").innerHTML = M1;
+
+        //charAt
+        /*berguna untuk mencari suatu huruf/kata, dengan cara mengetikan angka
+        yang akan dicari. maka yang akan muncul adalah huruf/kata-nya*/
+        var OPP = "the old ducati evo 1229";
+        OPP = OPP.charAt(8);
+        document.getElementById("duatiga").innerHTML = OPP;
+
+        //toUpperCase
+        /*berguna untuk mengubah kata/kalimat menjadi huruf besar semua*/
+        var SC = "this is yamaha R1m";
+        SC = SC.toUpperCase();
+        document.getElementById("duaempat").innerHTML = SC;
+
+        //toLowwerCase
+        //berguna untuk mengubah kata/kalimat menjadi huruf kecil semua
+        var akrapovic = "THIS IS YAMAHA R6";
+        akrapovic = akrapovic.toLowerCase();
+        document.getElementById("dualima").innerHTML = akrapovic;
+
+        //replace
+        //berguna untuk mengubah/menghapus kata pada kalimat nilai
+        var termig = "ducati panigale v4 ini pake termignoni"
+        termig = termig.replace("termignoni", "akrapovic");
+        document.getElementById("duaenam").innerHTML = termig;
+
+        //METODE STRING BAGIAN 2
+        //subString , substr , parseInt , parseFloat
+        
+        /*substring (   start   ,    end     )
+            patokan =   awal   ,    awal    */
+        /*berguna untuk mengambil huruf/kata berdasarkan urutan angka nya.
+        kedua angka berpatokan pada awal data,
+        star berpatok dari awal, dan end berpatok dari awal juga*/
+        var leo = "kawasaki ninja H2R mampu menembus kecepatan hingga 400kmph";
+        leo = leo.substring(9 , 14);
+        document.getElementById("duatujuh").innerHTML = leo;
+
+        /*substr    (   start   ,    length     )
+            patokan =   awal   ,      START    */
+        /*berguna untuk mengambil huruf/kata berdasarkan urutan angka nya.
+        kedua angka berpatokan pada awal data,
+        star berpatok dari awal, dan end berpatok dari awal juga*/
+        var shoe = "helm shoe full face ini seharga Rp.18.000.000";
+        shoe = shoe.substr(35 , 11);
+        document.getElementById("duadelapan").innerHTML = shoe;
+        
+        //parseint
+        //berguna untuk mengubah data string menjadi integer bulat
+        var _MM = "2500";
+        var _AA = 2500;
+        _AA = parseInt(_MM) + _AA;
+        document.getElementById("duasembilan").innerHTML = _AA;
+
+        //parsefloat
+        //berguna untuk mengubah data string menjadi integer desimalvar
+        var WWW = 5000.12;
+        var XXX = "3000.049";
+        XXX = parseFloat(XXX) + WWW;
+        document.getElementById("tigapuluh").innerHTML = XXX;
+
+        //belajar FUNGSI
+        //menulis fungsi
+        function namafungsi(){
+        //alert("selamat datang di website!");
+        var PO = "sekolah SD";
+        document.getElementById("tigasatu").innerHTML = PO;
+        }
+        //memanggil fungsi (tuliskan nama fungsi)
+        namafungsi();
+
+        //PARAMETER FUNGSI
+        //menulis fungsi
+       function namafungsi(kw){
+           var big = kw + " TIGA";
+           document.getElementById("tigadua").innerHTML = big;
+       }
+       //memanggil fungsi
+       var kw = "SATU";
+       namafungsi(kw + " DUA");
+
+       /*nilai "kw" pada parameter micro awal tidak sama dengan "kw"
+       pada parameter kedua*/
+
+       /*CATATAN PENTING!!
+       pada nilai variabel, kapan kita harus memakai tanda petik dan kapan dilarang memakainya?
+       untuk data string, lihat STATUS nilai tersebut.
+       jika statusnya berupa "KONTEN" yang akan di eksekusi, maka wajib menggunakan tanda petik.
+       jika stausnya berupa "NYOMOT" dari sumber lain, maka dilarang menggunakan tanda petik*/
+
+       //#1 latihan parameter fungsi
+       function ZX10R(bebas){
+           var ZX6R = bebas + " 1129";
+           document.getElementById("tigatiga").innerHTML = ZX6R;
+       }
+       var pelopor = "DUCATI";
+       ZX10R(pelopor + " MONSTER");
+
+       //#2 latihan parameter pada fungsi
+       function _10x(printy){
+           var baik = printy + " universitas pasundan";
+           document.getElementById("tigaempat").innerHTML = baik;
+       }
+       var jahat = "program studi akuntansi";
+       _10x(jahat + " fakultas ekonomi");
+
+
+       //#3 latihan parameter pada fungsi
+       function kalau(bebasmerk){
+           var jengkol = bebasmerk + " berarti super bagus";
+           document.getElementById("tigalima").innerHTML = jengkol;
+       }
+       var bebasrokok = "kalau";
+       kalau(bebasrokok + " nilainya A");
+
+       //MULTIPLE PARAMETER
+       function aerox(bag1, bag2, bag3){
+           var terminal = bag1 + bag2 + bag3;
+           document.getElementById("tigaenam").innerHTML = terminal;
+       }
+       aerox("pengaruh", " harga", " dan");
+
+       //latihan multiple parameter
+       function nama100(in1, in2, in3){
+           var quickk = (in1 + in2 + in3)
+           document.getElementById("tigatujuh").innerHTML = quickk;
+       }
+       nama100("satu", " dua", " tiga",);
+
+       //latihan multiple parameter
+       function j1(k1, k2, k3, k4, k5){
+           var jk = k1 + k2 + k3 + k4 + k5;
+           document.getElementById("tigadelapan").innerHTML = jk;
+       }
+       j1("pengaruh", " harga", " dan", " kualititas", " produk");
+
+       //latihan multiple parameter
+       function e1(q1, q2, q3, q4, q5, q6, q7, q8){
+           var mgt = q1 + q2 + q3 + q4 + q5 + q6 + q7 + q8;
+           var kop = mgt + " taman sari"; 
+           document.getElementById("tigasembilan").innerHTML = kop;
+       }
+       var aaa = " bandung";
+       var kol = " jalan";
+       e1("fakultas", " ekonomi", " dan", " bisnis", " universitas", " pasundan", aaa, kol);
+
+       //latihan multiple parameter
+       function juice(anggur, jeruk, tomat, strawberry, mangga){
+           var komposisi = anggur + jeruk + tomat + strawberry + mangga;
+           document.getElementById("empatpuluh").innerHTML = komposisi;
+       }
+       juice("manis", " asem", " asin", " rame", " rasanya");
+
+
+       //RETURN
+      function printex(){
+          var kop = "sekolayy";
+          var pi = " kodianngg";
+          var kamu = " yangs";
+          var aku = " bari";
+          return kop + pi + aku;
+      }
+      printex();
+      document.getElementById("empatsatu").innerHTML = printex();
+
+      //kombinasi return dengan multiple parameter
+      function jialing(nama1, nama2, nama3, nama4){
+          return nama1 * nama2 + nama3 - nama4;
+      }
+
+      var honda = jialing(1, 10, 10, 5);
+      document.getElementById("empatdua").innerHTML = honda;
+
+
+      //exercise of combining between return and parameter methods
+      function haha(x1, x2, x3){
+          var ngawur1 = "assoy";
+          var ngawur2 = "ashiaap";
+          var ngawur3 = "ehoyy";
+          return x1 + x2 + x3;
+      }
+      var hasile = haha(12312, 68768, 9897);
+      document.getElementById("empattiga").innerHTML = hasile;
+      
+      //exercise 2 
+      function mama(wkwk1, wkwk2, wkwk3){
+          return wkwk1 + wkwk2 + wkwk3;
+      }
+      var exekutors = mama("45", "90", "9.6");
+      document.getElementById("empatempat").innerHTML = exekutors;
+      
+      //latihan 3
+      function cukur(para1, para2, para3){
+        flu = para1 + para2 + para3;
+        paranormal = 89 + 900;
+        pilek = kolor;
+          return flu + paranormal + kolor + pilek;
+      }
+      var kolor = 7000;
+      var silet = cukur(35, 35, 35);
+      document.getElementById("empatlima").innerHTML = silet;
+
+      //global dan lokal variable
+      //global var
+      var glb = "permen nano";
+      function sarinah(){
+        document.getElementById("empatenam").innerHTML = glb;
+      }
+      sarinah();
+
+
+      //lokal variable
+      //berada didalam suatu fungsi yang tidak bisa diakses dari luar
+      function asih(){
+        var LOKAL = "nano asin";
+        document.getElementById("empattujuh").innerHTML = LOKAL;
+        }
+        asih();
+        //document.getElementById("empattujuh").innerHTML = LOKAL; TIDAK BISA DI AKSES
+
+        //variable global yang berada didalam fungsi
+        //berada didalam fungsi, tetapi bisa diakses dari luar fungsi tsbt
+        function markonah(){
+            /*cara penulisan var global yg berada didalam fungsi
+            adalah tanpa kata "var". seperti contoh berikut: */
+            varganda = "var global yg berada didalam fungsi";
+        }
+        markonah();
+        document.getElementById("empatdelapan").innerHTML = varganda;
+
+        //TYPE DATA ARRAY
+        /*tipe data ini dapat memiliki nilai lebih dari satu buah,
+        nilainya bisa berupa campuran antara data string dan number*/
+        var ariel = [2 , " donat" , " strawberry" , " keju"];
+        document.getElementById("empatsembilan").innerHTML = ariel;
+        
+        //nilai array dimulai dari angka nol "0"
+        //cara mengambil salah satu nilai didalam suatu var array
+        document.getElementById("limapuluh").innerHTML = ariel[3];
+        document.getElementById("limasatu").innerHTML = ariel[1];
+
+        //penggabungan data array dengan data string
+        var bangke = ["satu", " dua"] + " string";
+        document.getElementById("limasatuo").innerHTML = bangke;
+
+        //penggabungan data array dengan data number
+        var beurit = ["satu", " dua"] + 100;
+        document.getElementById("limasatuoi").innerHTML = beurit;
+
+        //penggabungan data string dengan data array
+        var tatum = "blabla" + ariel[1];
+        document.getElementById("limasatuu").innerHTML = tatum;
+
+        //penggabungan data number dengan data array
+        var hallo = 8 + ariel[0];
+        document.getElementById("limasatuuu").innerHTML = hallo;
+
+        //penggabungan data string dengan number
+        var bakso = "abang basi" + 9;
+        document.getElementById("limasatuy").innerHTML = bakso;
+
+        //latihan
+        var text45 = ["satu", " 2", " tiga",];
+        document.getElementById("limadua").innerHTML = text45;
+        //ini komentar
+        //ini juga
+        document.getElementById("limatiga").innerHTML = text45[1];
+
+        //latihan
+        var konten = ["judul", "KP", "isi", "kesimpulan", "penutup"];
+        document.getElementById("limaempat").innerHTML = konten[3];
+
+        //latihan
+        var bagi = ["motor", "mobil", "becak"];
+        document.getElementById("limalima").innerHTML = bagi[0];
+        
+        //latianh
+        var kali = ["gue", "sangat", "pinter"];
+        document.getElementById("limaenam").innerHTML = kali [2];
+        document.getElementById("limatujuh").innerHTML = kali [0];
+
+        //latihan
+        var _9032 = [16000, "new conten", 9000, "all model"];
+        document.getElementById("limadelapan").innerHTML = _9032[3];
+
+
+
+        //METODE SORT, REVERSE, CONCAT, LENGTH, JOIN(separator)
+
+        /*SORT (sorting)
+        berfungsi mengurutkan angka terkecil hingga terbesar
+        atau sesuai abjad utk data string*/
+        var deletio = ["ani", "bagoi", "cincau", "zeus"]; //data string
+        document.getElementById("limasembilan").innerHTML = deletio.sort();
+
+        var _70 = [9, 3, 4, 1, 6, 29]; //utk data integer hanya sampai angka 9
+        document.getElementById("enampuluh").innerHTML = _70.sort();
+
+        /*REVERSE
+        Berfungsi mengurutkan berdasarkan nilai paling akhir pada array*/
+        var prank = ["ace", "bace", "chace", "kio", "ani"];
+        document.getElementById("enamsatu").innerHTML = prank.reverse();
+
+        var prunk = [1, 9, 9, 5];
+        document.getElementById("enamdua").innerHTML = prunk.reverse();
+        
+        /*CONCAT
+        berfungsi menggabungkan dua data array*/
+        var polo = ["kuda", " orang", " stik"];
+        var nova = [" batrre", " besi", " listrik"];
+
+        document.getElementById("enamtiga").innerHTML = polo.concat(nova);
+        
+        /*LENGTH
+        berfungsi menghitung jumlah nilai*/
+        var kolam = ["koi", "bebenyit", "cebong"];
+        document.getElementById("enamempat").innerHTML = kolam.length;
+        
+        /*JOIN
+        berfungsi sebagai pemisah utk tiap2 nilai pada data array*/
+        var koil = ["iphone", "samsung", "oppo"];
+        document.getElementById("enamlima").innerHTML = koil.join(" | ");
+        
+        var lingkar = ["prev", 1, 2, 3, 4, 5, 6, "next"];
+        document.getElementById("enamenam").innerHTML = lingkar.join(" | ");
+
+        //SPLICE(ADD DAN REMOVE), POP, PUSH, SHIFT, UNSHIFT
+
+        /*SPLICE (ADD)
+        berfungsi menambahkan/menyematkan nilai baru
+        kedalam nilai suatu data array.*/
+        var magma = ["magnum", "gold", "rasa", "baru"];
+        magma.splice(1, 1, "orange")
+        //pada tanda kurung splice, angka pertama adalah posisi nilai yg akan kita tambahkan
+        //angka kedua adalah posisi nilai yang akan dihapus,
+        //jika tidak ada nilai yang ingin dihapus cukup diisi angka nol "0" saja
+        //kata "orange" adalah nilai yang akan ditambahkan/disematkan
+        document.getElementById("enamtujuh").innerHTML = magma;
+
+        /*SPLICE(REMOVE)
+        berfungsi menghapus/remove suatu nilai pada data array*/
+        var korek = ["your", " old", " big", " bike", "makes", "your", "abilities", "to be", "good"];
+        korek.splice(4, 5)
+        //pada tanda kurung splice,
+        //angka pertama untuk menentukan mulai darimana posisi nilai yg akan kita hapus
+        //angka kedua adalah berapa jumlah nilai yang akan dihapus
+        document.getElementById("enamdelapan").innerHTML = korek;
+
+        /*POP (lawan push)
+        berfungsi menambahkan nilai baru hampir mirip seperti splice
+        namun untuk menghapus nilai yang berada diposisi paling akhir pada data array*/
+        var oppoiki = ["satu", "dua", "tiga"];
+        oppoiki.pop();
+        document.getElementById("enamsembilan").innerHTML = oppoiki;
+        /*pop juga berfungsi untuk mengambil nilai paling akhir dari data array
+        untuk digunakan pada variable baru*/
+        var koncler = ["suatu", "saat", "nanti", "semua"]
+        var koclak = koncler.pop();
+        document.getElementById("tujuhpuluh").innerHTML = koclak;
+        
+        /*PUSH (lawan pop)
+        berfungsi menyematkan nilai baru diposisi paling belakang pada data array*/
+        var bebek = ["kepala", "sayap", "ekor"];
+        bebek.push("kaki");
+        document.getElementById("tujuhsatu").innerHTML = bebek;
+
+        /*SHIFT
+        berfungsi menghapus nilai yang berada diposisi paling depan pada data array*/
+        var $09 = ["hallo", " kalkulator", " baru"];
+        $09.shift();
+        document.getElementById("tujuhdua").innerHTML = $09;
+
+        /*UNSHIFT
+        berfungsi menyematkan nilai baru pada data array*/
+        var durian = ["kulit", "buah"];
+        durian.unshift("harga");
+        document.getElementById("tujuhtiga").innerHTML = durian;
+
+        /*TIPE DATA BOOLEAN
+        -tipe data ini hanya memiliki dua jenis yaitu true atau false*/
+        var x = true;
+        var y = false;
+        document.getElementById("tujuhempat").innerHTML = x;
+
+        /*OPERATOR LOGIKA (IF dan ELSE) JIKA DAN MAKA
+        -berfungsi menguji antara dua buah data.
+        -data ini berjenis boolean
+        -IF = TRUE
+        -FALSE = ELSE
+        -simbol2 yg digunakan sebagai berikut :
+            "=="" artinya sama dengan. "!=" artinya tidak sama dengan.
+
+        //TANDA "==" (SAMA DENGAN)
+       var ZZ = 10000;
+       var LL = 10000;
+
+       if( ZZ == LL ){
+           document.getElementById("chek").innerHTML = "SELAMAT";
+       }else{
+           alert('sorrry');
+       }
+
+       /*DUA SYARAT ATAU LEBIH
+       -untuk memasukan 2 syarat atau lebih,
+       perlu menggunakan tanda "&&" (DAN) juga tanda "||" (ATAU)
+       -data ini berjenis boolean*/
+
+       /*TANDA && (DAN)
+       -dalam tanda ini, kedua syarat harus terpenuhi.
+       -jika tidak maka akan beralih ke hasil berikutnya.
+       -PERLU DIINGAT!
+        ( TRUE && TRUE  = TRUE ) (IF)
+        ( TRUE && FALSE = FALSE ) (ESLE)
+        ( FALSE && FALSE = FALSE ) (ESLE)
+       -data ini berjenis boolean*/
+       var kaka = 13;
+       var adik = 4;
+       var barang = 10;
+
+       if( kaka >= barang && adik >= barang ){
+        // if( TRUE && FALSE = FALSE)
+           //alert('selamat');
+           document.getElementById("tujuhenam").innerHTML = "transaksi berhasil!";
+       }else{
+           //alert('uang anda kurang');
+           document.getElementById("tujuhtujuh").innerHTML = "maaf uang anda kurang";
+       }
+
+       /*TANDA "||" (ATAU)
+       -dalam tanda ini, boleh salah satu syarat saja yang terpenuhi.
+       -data ini berjenis boolean.
+       PERLU DIINGAT!
+        ( TRUE  || TRUE  = TRUE )  (IF)
+        ( TRUE  || FALSE = TRUE )  (IF)
+        ( FALSE || FALSE = FALSE ) (ESLE)*/
+       var joko = 200;
+       var joki = 500;
+       var permen = 300;
+
+       if( joko >= permen || joki >= permen ){
+        //if( FALSE || TRUE = TRUE )
+           //alert('selamat');
+           document.getElementById("tujuhdelapan").innerHTML = "transaksi berhasil!";
+       }else{
+           //alert('uang anda kurang');
+           document.getElementById("tujuhsembilan").innerHTML = "maaf uang anda kurang";
+       }
+
+       /*latihan
+       CAMPURAN ANTARA TANDA && DAN ||*/
+       var uang_ati = 20;
+       var uang_joko = 20;
+       var uang_kaka = 5;
+       var uang_adik = 2;
+       var harga_rumah = 20;
+       if( uang_ati == harga_rumah && uang_joko == harga_rumah || uang_kaka == harga_rumah || uang_adik == harga_rumah ){
+           document.getElementById("delapanpuluh").innerHTML = "selamat, rumah terbeli";
+       }else{
+           document.getElementById("delapansatu").innerHTML = "maaf uang anda kurang untuk membeli rumah";
+       }
+
+       /*ELSE IF
+       -berguna sebagai jawaban alternatif setelah syarat if tidak terpenuhi.
+       -fungsi else if ini bisa dipakai lebih dari satu/sesuai kebutuhan.
+       -fungsi else if diletakan diantara if dan else.
+       -cara penulisannya : else if(syarat){jawaban}*/
+       var steven = 100;
+       var eko = 100;
+       var rokok = 20;
+       if( steven == rokok && eko == rokok ){
+           document.getElementById("delapandua").innerHTML = "selamat steven dan eko dapet rokok!";
+       }else if( steven > rokok && eko > rokok ){
+           document.getElementById("delapantiga").innerHTML = "uang kalian berdua kelebihan!";
+       }else if( steven < rokok && eko < rokok ){
+           document.getElementById("delapanempat").innerHTML = "uang kalian berdua kurang!";
+       }else if( steven > rokok && eko == rokok ){
+           document.getElementById("delapanlima").innerHTML = "uang steven kelebihan!";
+       }else if( steven < rokok && eko == rokok ){
+           document.getElementById("delapanenam").innerHTML = "uang steven kurang!";
+       }else if( steven == rokok && eko > rokok ){
+           document.getElementById("delapantujuh").innerHTML = "uang eko kelebihan!";
+       }else if( steven == rokok && eko < rokok ){
+           document.getElementById("delapandelapan").innerHTML = "uang eko kurang!";
+       }else if( steven > rokok && eko < rokok ){
+           document.getElementById("delapansembilan").innerHTML = "uang steven kelebihan dan si eko kurang!";
+       }else if( steven < rokok && eko > rokok ){
+           document.getElementById("sembilanpuluh").innerHTML = "uang steven kurang dan si eko kelebihan!";
+       }else{
+           document.getElementById("sembilansatu").innerHTML = "maaf uang kalian tidak cukup!";
+       }
+
+       /*NESTED IF
+       nested if atau if yang bersarang didalam if
+       -nested if ini bekerja apabila if sebelumnya adalah benar*/
+       var saldo_budi = 30;
+       var pulsa = 10;
+       if( saldo_budi >= pulsa ){
+           if( saldo_budi == pulsa*2 ){
+               document.getElementById("sembilandua").innerHTML = "saldo anda cukup untuk membeli pulsa sebesar 20ribu";
+           }if( saldo_budi == pulsa*3 ){
+               document.getElementById("sembilantiga").innerHTML = "saldo anda cukup untuk membeli pulsa sebesar 30ribu";
+           }if( saldo_budi == pulsa*10 ){
+               document.getElementById("sembilanempat").innerHTML = "saldo anda cukup untuk membeli pulsa sebesar 10ribu, bahkan hingga sebesar 100ribu";
+           }
+           //document.getElementById("sembilanlima").innerHTML = "anda bisa membeli pulsa!";
+       }else{
+           document.getElementById("sembilanenam").innerHTML = "saldo anda tidak cukup!";
+       }
+
+       /*SWITCH CASE
+       digunakan untuk mengetahui nilai yang pasti, biasanya dipakai kalau
+       kasusnya berjumlah banyak*/
+       var cleanoz = "penghemat BBM";
+       switch( cleanoz ){
+           case "penghemat uang" :
+           document.getElementById("sembilantujuh").innerHTML = "salah";
+           break;
+
+           case "pengehemat air" :
+           document.getElementById("sembilandelapan").innerHTML = "salah";
+           break;
+
+           case "penghemat BBM" :
+           document.getElementById("sembilansembilan").innerHTML = "benar, cleanoz adalah penghemat BBM!";
+           break;
+       }
+
+       /*PENGULANGAN
+       -FOR LOOP
+       -WHILE LOOP
+       -DO WHILE*/
+
+       /*FOR LOOP
+       jika kita akan menulis kode secara berulang, atau menulis sesuatu yang berstruktur,
+       maka kita bisa menggunakan for loop ini supaya tidak perlu menulis ulang satu persatu*/
+
+       //for(mulai dari mana; syaratnya apa; rangenya berapa)
+       for(var FGH=0; FGH<10; FGH=FGH + 1){
+           document.getElementById("seratus").innerHTML = FGH;
+           //alert(FGH); <--untuk pengujian, matikan tanda komentar
+       }
+
+       /*WHILE LOOP
+       while loop serupa tapi tak sama dengan for loop
+       -cara penulisannya sebagai berikut :
+
+       var A = 0
+
+       while(syarat, misal: A < 5){  -->var A ini mengacu pada var A = 0 diatas
+           didalam blok kode ini berisi apa yang mau kita lakukan, misal:
+           A++; --> var A lokal ini mengacu pada var A global diatas.
+           alert(A); --> tag ini mengacu pada var A++.
+           }
+           pada saat di print maka yang muncul adalah angka 1, karena var A++ berarti A+1 yaitu 1.
+           Angka 1 ini jelas berstatus A, karena dia cerminan dari A++
+           alert akan menambahkan A sebelumnya (yaitu 1) dengan A++ yang baru.
+           sehingga hasil pengulangan print berikutnya adalah angka 2 karena A (1) + A++ = 2.
+           pengulangan print akan dilakukan terus menerus oleh alert, karna ia diperintahkan oleh while.
+           pengulangan dilakukan hingga mencapai syarat yg telah ditentukan pada while itu sendiri (yaitu A<5)
+           */
+
+           var B = 4;
+           
+           while( B < 10 ){
+               B = B + 2;
+               //alert(B); <--untuk pengujian, matikan tanda komentar
+           }
+           /*catatan:
+           untuk pengulangan alert yang kedua dst, var B akan dianggap memiliki nilai 1 oleh while,
+           meskipun nilai yang terpasang adalah 4*/
+
+           //latihan
+           var C = 0;
+           while( C < 3){
+               C++;
+               //alert(C); <--untuk pengujian, matikan tanda komentar
+           }
+
+           /*ngeprint dengan cara lain pada WHILE LOOP:
+           jika kita ingin ngeprint pake div dan ingin melihat pengulangan nilainya,
+           maka gunakan cara berikut:*/
+           
+           var G = 0;
+           var H = 0;   //<--buat var global baru
+           while( G < 10 ){
+               G++;
+               H = H + "" + G;  //<--buat kode seperti ini ( H = H + "" + G ) atau disingkat ( H += "" + G)
+           }
+           document.getElementById("seratussatu").innerHTML = H; //<--pindahkan alat print keluar blok kode while
+
+           /*catatan:
+           hasil print pertama akan mengacu pada global var pul yang bernilai 0.
+           kemudian print kedua akan mengacu pada lokal var pul yang bernilai c1.
+           kemudian pengulangan dilakukan hingga mencapai syarat yang telah ditentukan.
+           */
+
+           /*DO WHILE
+           -hampir serupa dengan while loop, hanya saja hal pertama yang dilakukan do while adalah
+            ngeprint kode nya minimal satu kali, meskipun nilainya lebih besar daripada syarat.
+            baru setelah itu melihat syaratnya, jika memenuhi maka dilanjut,
+            tapi jika tidak maka berhenti sampai disitu.
+           -berbeda dengan while loop, do while meletakan syaratnya dibagian akhir*/
+
+           var BB = 5;
+           var AA = 0;
+           do{
+               AA = AA + "<br>c" + BB;
+               BB++;
+           }
+           while( BB < 4 );
+           document.getElementById("seratusdua").innerHTML = AA;
+
+    </script>
+
+    <!--<script src="external.js"></script>-->
+    </body>
+</html>
